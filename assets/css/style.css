@@ -1,0 +1,253 @@
+/*Alejandro Millet Gerion*/
+/*Documento CSS para dar estilo y formato a la parte publica de la aplicacion.*/
+
+/*import para los estilos que se aplican a las diferentes secciones y fuentes de las paginas.*/
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url('https://fonts.googleapis.com/css?family=ZCOOL+KuaiLe%7CArchitects+Daughter%7CPacifico%7CCourgette%7CLobster%7CAmaranth%7COregano');
+
+body {
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+}
+
+
+/*CSS para el logo de la pagina (tamaño y posicion)*/
+#logo {
+	width: 135px;
+	margin-left: 150px;
+}
+
+
+/*CSS para posicionar los botones de navegacion*/
+#nav_nav {
+	margin-left: 120px;
+}
+
+#buscar {
+	margin-top: 20px;
+	margin-right: 100px;
+}
+
+
+/*CSS para los botones "Registrarse, Iniciar sesion y Usuario" (tamano, posicion, borde y su estilo) del menu de navegacion.*/
+#registro {
+	margin-right: 20px;
+	padding: 11px;
+	border: 1px groove;
+	border-radius: 30px;
+}
+#login {
+	margin-right: 100px; 
+	padding: 11px;
+	border: 1px groove;
+	border-radius: 30px;
+}
+#user{
+	margin-right: 15px; 
+}
+
+
+/*Separacion entre las cards ubicadas en la pagina principal usadas exclusivamente para mostrar los diferentes viajes disponibles.*/
+.card {
+	margin: 4%;
+	margin-bottom: 100px;
+	padding: 10px;
+}
+
+/*Tamano para las imagenes de las cards*/
+.card-img-top {
+	width: 300px;
+	height: 180px;
+}
+
+
+/*CSS para ajustar el padding de los formularios*/
+#form, #form_login {
+	padding: 30px;
+}
+
+#rlogin{
+	padding-left: 15px;
+}
+
+/*Color rojo para los mensajes de error que salen al escribir mal en alguno de los campos del formulario*/
+#error_nombre, #error_primer_ape, #error_segundo_ape, #error_dni, #error_username, #error_rpwd, #error_email, #error_email_login {
+	color: red;
+}
+
+
+/*Formato y posicion para los titulos de los contenidos ubicados en la pagina principal, la seccion "Contacto" y la de "Mapa del sitio".*/
+.titulo {
+	text-align: center;
+	font-family: 'Amaranth', cursive;
+	color: red;
+    font-size: 37px;
+    margin-top: 50px;
+    padding: 30px;
+}
+
+/*Formato y posicion del formulario ubicado en el contenido de la seccion "Contacto".*/
+#contacto_form {
+    font-size: 27px;
+    padding: 30px;
+    margin-left: 10%;
+}
+
+/*Formato para el icono ubicado en el formulario de la secccion "Contacto".*/
+.bigicon {
+    font-size: 35px;
+    color: red;
+}
+
+/*Formato para la imagen del carrito*/
+.img_carrito {
+	width: 100%;
+}
+
+
+/*Posicionamiento para el contenido del la seccion "Mapa del sitio".*/
+#mapa {
+	margin-left: 35%;
+	margin-bottom: 100px;
+}
+
+#cmapa {
+	padding-left: 10px;
+	font-size: 12px;
+}
+
+
+/*Separacion entre los botones de registro y reinicio del formulario*/
+#id_submit, #id_reset{
+	margin-right: 10px;
+}
+
+
+/**/
+fieldset.scheduler-border {
+	border: 1px groove #ddd;
+	padding: 20px;
+	margin-bottom: 20px;
+}
+
+legend.scheduler-border {
+    width: auto;
+    padding: 10px;
+}
+
+/*ALERTAS*/
+#centro-notificaciones #notificacion{
+    display: none;
+    cursor: pointer;
+}
+#centro-notificaciones #notificacion .alert{
+	width: 350px;
+	position: absolute;
+	right: 20px;
+	bottom: 20px;
+	z-index: 3000;
+}
+
+/*FOOTER CSS*/
+section .section-title {
+    text-align: center;
+    color: #007b5e;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+
+#footer h5 {
+	padding-left: 10px;
+    border-left: 3px solid #eeeeee;
+    padding-bottom: 6px;
+    margin-bottom: 20px;
+    color:#ffffff;
+}
+
+#footer a {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+
+#footer ul.social li {
+	padding: 3px 0;
+}
+
+#footer ul.social li a i {
+    margin-right: 5px;
+	font-size:25px;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+
+#footer ul.social li:hover a i {
+	font-size:30px;
+	margin-top:-10px;
+}
+
+#footer ul.social li a,
+#footer ul.quick-links li a {
+	color:#ffffff;
+}
+
+#footer ul.social li a:hover {
+	color:#eeeeee;
+}
+
+#footer ul.quick-links li {
+	padding: 3px 0;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+
+#footer ul.quick-links li:hover {
+	padding: 3px 0;
+	margin-left:5px;
+	font-weight:700;
+}
+
+#footer ul.quick-links li a i {
+	margin-right: 5px;
+}
+
+#footer ul.quick-links li:hover a i {
+    font-weight: 700;
+}
+
+#jumbotron_footer {
+	margin-bottom: 0;
+}
+
+/*Tamano para la imagen rss ubicada en el footer*/
+#rss-logo {
+	width: 60px;
+}
+
+/*CSS para la tabla de opiniones*/
+h5.opiniones{
+	margin: 50px 0 20px;
+}
+
+.opinion{
+	background-color: #F9F9F9;
+	margin-bottom: 20px;
+	padding: 10px;
+}
+	.opinion i{
+		font-size: 30px;
+	}
+
+/*CSS para dar formato a las etiquetas de las categoria/s dentro de un producto*/
+span.categoria{
+	background-color: #343a40;
+	color: #FFF;
+	padding: 2px 10px;
+	margin-right: 10px;
+	font-size: 12px;
+	cursor: default;
+}
