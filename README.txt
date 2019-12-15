@@ -30,4 +30,4 @@ Versión 1.1
 
 Versión 1.2
 
-    - Correción de una ruta mal puesta en la linea 43 del archivo listadoProductos.php dentro de la carpeta admin.
+    - Correción de una ruta mal puesta en la línea 43 del archivo listadoProductos.php dentro de la carpeta admin.
