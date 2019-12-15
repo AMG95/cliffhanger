@@ -1,5 +1,3 @@
-<!--Alejandro Millet Gerion-->
-
 		<div id="centro-notificaciones">
 			<div id="notificacion"></div>
 		</div>

@@ -1,5 +1,3 @@
-<!--Alejandro Millet Gerion-->
-
 <?php
 
 	// Para prevenir problemas con rutas absolutas usamos $_SERVER['DOCUMENT_ROOT']

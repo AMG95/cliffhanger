@@ -1,5 +1,3 @@
-<!--Alejandro Millet Gerion-->
-
 <?php
 
     // Se abre la sesión

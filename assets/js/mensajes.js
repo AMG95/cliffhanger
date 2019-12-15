@@ -1,4 +1,3 @@
-// Alejandro Millet Gerion
 // Documento JS para mostrar mensajes personalizados segun el caso
 
 // Variables necesarias para la carga de mensajes

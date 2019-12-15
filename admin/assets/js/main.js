@@ -1,5 +1,3 @@
-// Alejandro Millet Gerion
-
 // Si ya se ha cargado toda la página
 $(document).ready(function() {
 

@@ -1,5 +1,3 @@
-<!--Alejandro Millet Gerion-->
-
 <?php
 
 	class Categoria_Producto{

@@ -1,5 +1,3 @@
-<!--Alejandro Millet Gerion-->
-
 <?php
 
     // Se abre la sesión
@@ -7,11 +5,6 @@
 
     // Include de todas las dependencias
 	include "../../libreria.php";    
-
-    // Acceder al array listadoProductosCarrito y eliminar el elemento que se le pasa por $_GET
-    echo "<pre>";
-    print_r($_SESSION["listadoProductosCarrito"]);
-    echo "</pre>";
 
 	// Se ejecuta una query de inserción de pedido
 	$objetoPedido = new Pedido();

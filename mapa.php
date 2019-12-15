@@ -1,5 +1,3 @@
-<!--Alejandro Millet Gerion-->
-
 <?php
 
     // Variable de posición para el menú principal

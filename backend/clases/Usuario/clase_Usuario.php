@@ -1,5 +1,3 @@
-<!--Alejandro Millet Gerion-->
-
 <?php
 
 	class Usuario{
@@ -27,8 +25,6 @@
 		
 		// Método que abre la conexión a BBDD. Es privado porque se llama sólo al crear el objeto.
 		public function open(){
-
-			print_r($this);
 
 			try{
 				$this->conn = new mysqli($this->host, $this->user, $this->password, $this->database);

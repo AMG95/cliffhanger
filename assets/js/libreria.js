@@ -1,5 +1,3 @@
-// Alejandro Millet Gerion
-
 // Función que recupera cualquier parámetro de la URL
 function getParameterByName(name) {
     name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");

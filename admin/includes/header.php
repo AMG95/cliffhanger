@@ -1,5 +1,3 @@
-<!--Alejandro Millet Gerion-->
-
 <!DOCTYPE html>
 <html class="no-js" lang="ES">
 

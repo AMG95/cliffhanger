@@ -1,4 +1,3 @@
-// Alejandro Millet Gerion
 // Documento JS que se usara mayoritariamente para la validacion de cada uno de los campos del formulario y otras utilidades.
 
 // Funcion tooltip que mostrara un mensaje personalizado al pasar el puntero sobre el elemento que tiene asignado dicha funcion.
