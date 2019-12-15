@@ -40,7 +40,7 @@
         echo "<a class='btn btn-primary btn-sm' href='editarProducto.php?id=".$producto["id"]."'>Editar</a>";
         echo "</div>";         
         echo "<div class='col-1'>";
-        echo "<a class='btn btn-danger btn-sm' href='backend/productos/borrar.php?id=".$producto["id"]."'>Borrar</a>";
+        echo "<a class='btn btn-danger btn-sm' href='backend/controladores/productos/borrar.php?id=".$producto["id"]."'>Borrar</a>";
         echo "</div>";               
         echo "</div>";
 	}

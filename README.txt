@@ -26,3 +26,8 @@ Versión 1.0
 Versión 1.1
 
     - Eliminación de los comentarios html con mi nombre y apellidos al principio de todos los ficheros, debido a posibles errores de cabecera y/o sesiones.
+
+
+Versión 1.2
+
+    - Correción de una ruta mal puesta en la linea 43 del archivo listadoProductos.php dentro de la carpeta admin.
