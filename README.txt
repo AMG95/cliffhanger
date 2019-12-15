@@ -25,4 +25,4 @@ Version 1.0
 
 Version 1.1
 
-    - Eliminación de los comentarios html con mi nombre y apellidos en todos los ficheros al principio de estos, debido a posibles errores de cabecera y/o sesiones.
+    - Eliminación de los comentarios html con mi nombre y apellidos al principio de todos los ficheros, debido a posibles errores de cabecera y/o sesiones.
